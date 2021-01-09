@@ -37,6 +37,7 @@ body {
 body * {
   /* align-items: center; */
   /* border: 0.5px solid black; */
+  zoom: 100%;
 }
 
 button {
