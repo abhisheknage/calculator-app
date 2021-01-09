@@ -28,16 +28,17 @@ body {
   justify-content: center;
   align-items: safe center;
   min-height: 100vh;
+
   background-color: grey;
   background: url("../images/background-3.jpg") no-repeat center center fixed;
   background-size: cover;
   /* padding-left: 10px; */
   /* padding-right: 10px; */
+  /* zoom: %; */
 }
 body * {
   /* align-items: center; */
   /* border: 0.5px solid black; */
-  zoom: 100%;
 }
 
 button {
@@ -50,7 +51,9 @@ button:hover {
 
 table {
   width: 60vh;
+
   max-width: 100vw;
+
   height: 90vh;
   max-height: 150vw;
   border-collapse: collapse;
@@ -89,7 +92,7 @@ tr:nth-of-type(6) > td:first-of-type {
   max-width: 50vw;
 }
 tr > td > * {
-  background-color: rgba(58, 58, 58, 0.15);
+  background-color: rgba(58, 58, 58, 0.3);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
